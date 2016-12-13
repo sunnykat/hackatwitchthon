@@ -11,8 +11,15 @@ namespace Hackatwitchthon.Controllers
         [HttpGet]
         [Route("")]
         public IActionResult Index()
+        {   
+
+            return View("Index");
+        }
+        [HttpPost]
+        [Route("Template")]
+        public IActionResult Template()
         {
-            return View();
+            return View("Template");
         }
     
     }
