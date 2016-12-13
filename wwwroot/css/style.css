@@ -1,0 +1,15 @@
+/*Write all of your CSS here*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#wrapper{
+    margin-left: 350px;
+}
+img{
+    margin-left: 80px;
+}
+button{
+    position: relative;
+    left: 15%;
+}
